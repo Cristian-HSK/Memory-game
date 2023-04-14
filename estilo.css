@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(43, 45, 49);
+    justify-content: center;
+}
+div{
+    color: white;
+}
+.memoria{
+    width: 30%;
+    text-align: center;
+    border: solid 2px black;
+}
+.tituloMemoria{
+    border: solid 2px pink;
+}
+.botaoEmbaralhar{
+    color: white;
+    background-color: rgb(46, 46, 46);
+    padding: 5px;
+}
+.botaoEmbaralhar:hover{
+    background-color:rgb(87, 87, 87);
+    cursor: pointer;
+}
+.botaoEmbaralhar:active{
+    background-color:rgb(68, 68, 68);
+}
+.conjuntoCartas{
+    border: 1px solid rgb(236, 0, 0);
+}
+.linhaCartas{
+    border: 1px solid rgb(70, 70, 70);
+    display: flex;
+}
+.cartas{
+    border: 3px solid rgb(187, 187, 187);
+    border-radius: 7px;
+    flex: 1;
+    width: 5px;
+    height: 70px;
+    background-color: rgb(128, 128, 128);
+    padding-top: 3px;
+}
+.cartas:hover{
+    background-color:rgb(87, 87, 87);
+    cursor: pointer;
+}
+.cartas:active{
+    background-color:rgb(68, 68, 68);
+}
+.cartaVirada{
+    border: 3px solid rgb(15, 2, 73);
+    border-radius: 7px;
+    flex: 1;
+    width: 5px;
+    height: 70px;
+    background-color: rgb(200, 0, 0);
+    padding-top: 3px;
+}
+.cartaVirada:hover{
+    background-color:rgb(160, 0, 0);
+    cursor: pointer;
+}
+.cartaVirada:active{
+    background-color:rgb(110, 0, 0);
+}
